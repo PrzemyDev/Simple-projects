@@ -1,0 +1,32 @@
+﻿<Window x:Class="ST1_2.Arkanoid"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ST1_2"
+        mc:Ignorable="d"
+        Title="Arkanoid" Height="450" Width="800" FocusManager.FocusedElement="{Binding ElementName=MyCanvas}" ResizeMode="NoResize">
+
+    <Canvas Name="MyCanvas" KeyDown="MyCanvas_KeyDown"  Focusable="True" KeyUp="MyCanvas_KeyUp" Background="Black" >
+
+
+        <Label Name="Lifes" Content="Życia: 3" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Canvas.Left="738" Canvas.Top="1"/>
+        <Rectangle Name="Pad" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="15" Stroke="Black" VerticalAlignment="Top" Width="140" Canvas.Left="300" Canvas.Top="380" />
+        <Ellipse Name="Ball" Fill="AliceBlue" HorizontalAlignment="Left" Height="26" Width="26" Stroke="Black" VerticalAlignment="Top" Canvas.Left="325" Canvas.Top="350" />
+        <Rectangle x:Name="Block_Copy1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="30" Canvas.Top="60"/>
+        <Rectangle x:Name="Block_Copy4" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="30" Canvas.Top="119"/>
+        <Label x:Name="Points" Content="Punkty: 0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Canvas.Left="674" Canvas.Top="1"/>
+        <Rectangle x:Name="Block_Copy" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="157" Canvas.Top="60"/>
+        <Rectangle x:Name="Block_Copy2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="157" Canvas.Top="119"/>
+        <Rectangle x:Name="Block_Copy3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="281" Canvas.Top="60"/>
+        <Rectangle x:Name="Block_Copy5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="281" Canvas.Top="119"/>
+        <Rectangle x:Name="Block_Copy6" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="408" Canvas.Top="60"/>
+        <Rectangle x:Name="Block_Copy7" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="408" Canvas.Top="119"/>
+        <Rectangle x:Name="Block_Copy8" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="532" Canvas.Top="58"/>
+        <Rectangle x:Name="Block_Copy9" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="532" Canvas.Top="117"/>
+        <Rectangle x:Name="Block_Copy10" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="659" Canvas.Top="58"/>
+        <Rectangle x:Name="Block_Copy11" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="102" Canvas.Left="659" Canvas.Top="117"/>
+
+
+    </Canvas>
+</Window>
