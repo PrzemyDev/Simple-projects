@@ -1,2 +1,3 @@
 # Simple
-Simple projects C#
+Simple projects C# / C++
+
