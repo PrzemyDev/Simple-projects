@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Arkanoid" Height="450" Width="800" FocusManager.FocusedElement="{Binding ElementName=MyCanvas}" ResizeMode="NoResize">
 
-    <Canvas Name="MyCanvas" KeyDown="MyCanvas_KeyDown"  Focusable="True" KeyUp="MyCanvas_KeyUp" Background="Black" >
+    <Canvas Name="MyCanvas" KeyDown="MyCanvas_KeyDown"  Focusable="True" KeyUp="MyCanvas_KeyUp" Background="#202020" >
 
 
         <Label Name="Lifes" Content="Życia: 3" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Canvas.Left="738" Canvas.Top="1"/>
