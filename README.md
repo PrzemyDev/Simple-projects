@@ -1,2 +1,2 @@
 # Simple
-Simple projects C#
+Simple projects C# / Prostsze projekty C#
