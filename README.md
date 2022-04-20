@@ -1,6 +1,6 @@
 # Simple
 Simple projects C# / Prostsze projekty C#
 
-• Arkanoid (WPF)
-• F1 Clicker (WFA)
-• Pomocnik ToDo (WPF)
+• Arkanoid (WPF)  
+• F1 Clicker (WFA)  
+• Pomocnik ToDo (WPF)  
