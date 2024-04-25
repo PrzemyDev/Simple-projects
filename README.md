@@ -3,6 +3,5 @@ Simple projects C# / Prostsze projekty C#
 
 • Arkanoid (WPF)  
 • F1 Clicker (WFA)  
-• Pomocnik ToDo (WPF)     
-• Jachaś LoFi (WPF)   
+• Pomocnik ToDo (WPF)      
 • Talia kart z tasowaniem (Console)
