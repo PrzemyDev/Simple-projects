@@ -1,7 +1,7 @@
 # Simple
-Simple projects C# / Prostsze projekty C# 
- = Pierwsze projekty związane z nauką programowania oraz obsługą github
-• Arkanoid (WPF) - zawiera zrzuty ekranu 
-• F1 Clicker (WFA)   - zawiera zrzuty ekranu
-• Pomocnik ToDo (WPF) - zawiera prezentację
-• Talia kart z tasowaniem (Console)
+Simple projects C# / Prostsze projekty C# (Pierwsze projekty związane z nauką programowania)
+<br />
+• Arkanoid (WPF) - zawiera zrzuty ekranu  <br />
+• F1 Clicker (WFA)   - zawiera zrzuty ekranu <br />
+• Pomocnik ToDo (WPF) - zawiera prezentację <br />
+• Talia kart z tasowaniem (Console) <br />
